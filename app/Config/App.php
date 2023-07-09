@@ -17,7 +17,7 @@ class App extends BaseConfig
      *
      *    http://example.com/
      */
-    public string $baseURL = 'http://localhost/demo101/';
+    public string $baseURL = '';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
@@ -446,4 +446,13 @@ class App extends BaseConfig
      * @see http://www.w3.org/TR/CSP/
      */
     public bool $CSPEnabled = false;
+
+    public function __construct()
+    {
+        if ($_SERVER['HTTP_HOST'] === 'localhost') {
+            $this->baseURL = 'http://localhost/demo101/';
+        } else {
+            $this->baseURL = 'https://demo101.standlink.com/';
+        }
+    }
 }
