@@ -449,10 +449,11 @@ class App extends BaseConfig
 
     public function __construct()
     {
-        if ($_SERVER['HTTP_HOST'] === 'localhost') {
-            $this->baseURL = 'http://localhost/demo101/';
-        } else {
+        if ($_SERVER['HTTP_HOST'] === 'demo101.standlink.com') {
             $this->baseURL = 'https://demo101.standlink.com/';
+        } else {
+            $this->baseURL = 'http://localhost/demo101/';
+
         }
     }
 }
