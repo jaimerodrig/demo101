@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 use App\Models\LoginModels;
-
+ 
 class Auth extends BaseController
 {
     public function index()
@@ -23,7 +23,7 @@ class Auth extends BaseController
         $usersData = $this->LoginModels->where('user', $user)->first();
     
         if ($usersData != null){
-            if(password_verify('password', $usersData['password'])){
+            if(password_verify($password, $usersData['password'])){
 
                 $sessionData = [
                     "id" => $usersData["id"],

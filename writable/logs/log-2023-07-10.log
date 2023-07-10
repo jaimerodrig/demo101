@@ -8,3 +8,5 @@ in APPPATH\Controllers\Auth.php on line 4.
  6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
  7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-10 22:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 22:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
