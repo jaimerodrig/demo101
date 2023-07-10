@@ -1,0 +1,10 @@
+CRITICAL - 2023-07-10 21:42:32 --> syntax error, unexpected '/', expecting ';' or ','
+in APPPATH\Controllers\Auth.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\demo101\\app\\Controllers\\Auth.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Auth')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Auth')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Auth')
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Auth', true)
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
