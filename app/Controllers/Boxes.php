@@ -1,15 +1,15 @@
 <?php
 
 namespace App\Controllers;
-use App\Models\BoxesModels;
+// use App\Models\BoxesModels;
 
-class Auth extends BaseController
+class Boxes extends BaseController
 {
 
-    public function __construct()
-    {
-        $this->BoxesModels = new BoxesModels();
-    }
+    // public function __construct()
+    // {
+    //     $this->BoxesModels = new BoxesModels();
+    // }
 
     public function index()
     {
