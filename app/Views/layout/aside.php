@@ -14,7 +14,7 @@
           <img src="<?php echo base_url(); ?>assets/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="<?php echo base_url(); ?>assets/#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block">Alexander Pierce</a>
         </div>
       </div>
 
@@ -36,7 +36,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item menu-open">
-            <a href="<?php echo base_url(); ?>assets/#" class="nav-link active">
+            <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
@@ -74,7 +74,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
               <p>
                 Layout Options
@@ -134,7 +134,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-chart-pie"></i>
               <p>
                 Charts
@@ -169,7 +169,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-tree"></i>
               <p>
                 UI Elements
@@ -228,7 +228,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-edit"></i>
               <p>
                 Forms
@@ -263,7 +263,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-table"></i>
               <p>
                 Tables
@@ -318,7 +318,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon far fa-envelope"></i>
               <p>
                 Mailbox
@@ -347,7 +347,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-book"></i>
               <p>
                 Pages
@@ -418,7 +418,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon far fa-plus-square"></i>
               <p>
                 Extras
@@ -427,7 +427,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>
                     Login & Register v1
@@ -462,7 +462,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>
                     Login & Register v2
@@ -547,7 +547,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-search"></i>
               <p>
                 Search
@@ -584,13 +584,13 @@
           </li>
           <li class="nav-header">MULTI LEVEL EXAMPLE</li>
           <li class="nav-item">
-            <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="fas fa-circle nav-icon"></i>
               <p>Level 1</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-circle"></i>
               <p>
                 Level 1
@@ -599,13 +599,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Level 2</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>
                     Level 2
@@ -614,19 +614,19 @@
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+                    <a href="#" class="nav-link">
                       <i class="far fa-dot-circle nav-icon"></i>
                       <p>Level 3</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+                    <a href="#" class="nav-link">
                       <i class="far fa-dot-circle nav-icon"></i>
                       <p>Level 3</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+                    <a href="#" class="nav-link">
                       <i class="far fa-dot-circle nav-icon"></i>
                       <p>Level 3</p>
                     </a>
@@ -634,7 +634,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Level 2</p>
                 </a>
@@ -642,26 +642,26 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="fas fa-circle nav-icon"></i>
               <p>Level 1</p>
             </a>
           </li>
           <li class="nav-header">LABELS</li>
           <li class="nav-item">
-            <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon far fa-circle text-danger"></i>
               <p class="text">Important</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon far fa-circle text-warning"></i>
               <p>Warning</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="<?php echo base_url(); ?>assets/#" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon far fa-circle text-info"></i>
               <p>Informational</p>
             </a>
