@@ -34,7 +34,7 @@ class Auth extends BaseController
                 $session = session();
                 $session->set($sessionData);
 
-                return redirect()->to(base_url().'cajas');
+                return redirect()->to(base_url().'boxes');
             } else {
                 $data["error"] = "La contraseña es incorrecta";
                 echo view("admin/login", $data);
@@ -44,8 +44,15 @@ class Auth extends BaseController
             $data["empty"] = "El usuario no existe";
             
             echo view("admin/login", $data);
-
-
         }
+
+    }
+
+    public function logout(){
+
+        $session = session();
+        $session->destroy();
+
+        return redirect()->to(base_url()); 
     }
 }
