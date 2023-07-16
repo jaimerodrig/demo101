@@ -39,7 +39,7 @@
             <a href="<?php echo base_url(); ?>assets/#" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Dashboard
+                Productos
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
@@ -47,13 +47,13 @@
               <li class="nav-item">
                 <a href="<?php echo base_url(); ?>assets/index.html" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v1</p>
+                  <p>Entradas P</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="<?php echo base_url(); ?>assets/index2.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v2</p>
+                  <p>Salidas P</p>
                 </a>
               </li>
             </ul>

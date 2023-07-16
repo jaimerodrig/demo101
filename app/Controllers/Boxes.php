@@ -15,6 +15,7 @@ class Boxes extends BaseController
     {
         echo view("layout/header");
         echo view("layout/aside");
+        echo view("home/topboxes");
         echo view("layout/footer");
     }
 
